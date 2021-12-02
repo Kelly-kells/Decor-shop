@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap");
+:root {
+  --orange: #ff7b00 !important;
+}
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2 linear;
+  text-transform: capitalize;
+  outline: none;
+  text-decoration: none;
+}
+
+*::selection {
+  background-color: var(--orange);
+  color: white;
+}
+html {
+  font-size: 62.5% !important;
+  overflow-x: hidden;
+}
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1000;
+  padding: 2rem 3rem;
+}
+header .logo {
+  font-size: 2rem;
+  color: #fff;
+  font-family: 'Alfa Slab One', cursive !important;
+}
+header .logo span {
+  color: var(--orange);
+  font-family: 'Alfa Slab One', cursive !important;
+}
+
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+
+header .navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .navbar li {
+  margin: 0 1rem;
+}
+header .navbar ul li a {
+  color: #fff;
+  font-size: 2rem;
+}
+header .navbar ul li a:active,
+header .navbar ul li a:hover {
+  color: var(--orange);
+}
