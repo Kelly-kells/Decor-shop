@@ -21,6 +21,9 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
+body{
+    height: 300rem;
+}
 
 
 header {
@@ -60,8 +63,11 @@ header .navbar li {
 header .navbar ul li a {
   color: #fff;
   font-size: 2rem;
+  
 }
-header .navbar ul li a:active,
+header .navbar ul li a:active{
+    color: var(--orange);
+} 
 header .navbar ul li a:hover {
   color: var(--orange);
 }
@@ -77,13 +83,14 @@ header #menu {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    position: fixed;
+   
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     z-index: -1;
   }
+  
 
 .home h1{
     font-size: 2.5rem;
@@ -95,6 +102,52 @@ header #menu {
      
     
 }
+
+/**ABOUT SECTION**/
+
+.about .row{
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+padding-top: 8rem;
+}
+
+.about .row .image{
+flex: 1 1 40rem;
+padding: 2rem;
+
+}
+.about .row .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.about .row .content{
+    flex: 1 1 40rem;
+    padding: 2rem;
+}
+
+.about .row .content h3{
+    color: #333;
+    font-size: 4rem;
+}
+.about .row .content p{
+    color: #666;
+    font-size: 1.3rem;
+    padding: 1rem 0;
+}
+
+
+
+
+
+
+
+
+
 
 /**media-query**/
 @media (max-width: 768px) {
@@ -133,4 +186,9 @@ header #menu {
     top: 8rem;
     opacity: 1;
   }
+}
+@media (max-width: 500px){
+    html{
+        font-size: 50%;
+    }
 }
