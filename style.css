@@ -21,9 +21,7 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
-body{
-    height: 300rem;
-}
+
 
 
 header {
@@ -37,6 +35,11 @@ header {
   z-index: 1000;
   padding: 2rem 3rem;
 }
+header .header-active{
+  background-color: #000;
+ 
+}
+
 
 
 header .logo {
@@ -104,6 +107,9 @@ header #menu {
 }
 
 /**ABOUT SECTION**/
+.about{
+  background-color: black;
+}
 
 .about .row{
 min-height: 100vh;
@@ -112,6 +118,8 @@ align-items: center;
 justify-content: center;
 flex-wrap: wrap;
 padding-top: 8rem;
+
+
 }
 
 .about .row .image{
@@ -123,15 +131,18 @@ padding: 2rem;
     height: 100%;
     width: 100%;
     object-fit: cover;
+    
 }
 
 .about .row .content{
-    flex: 1 1 40rem;
+    flex: 1 1 40rem;  
     padding: 2rem;
+    font-size: 2rem;
+    
 }
 
 .about .row .content h3{
-    color: #333;
+    color: #666;
     font-size: 4rem;
 }
 .about .row .content p{
