@@ -39,6 +39,9 @@ header .header-active{
   background-color: #000;
  
 }
+header .header-active .navbar a{
+color: var(--orange);
+}
 
 
 
