@@ -35,14 +35,16 @@ header {
   z-index: 1000;
   padding: 2rem 3rem;
 }
-header .header-active{
-  background-color: #000;
- 
-}
-header .header-active .navbar a{
-color: var(--orange);
-}
 
+.heading{
+  display: inline-block;
+  color: orange;
+  margin: 2rem 0;
+  padding: 1rem;
+  padding-top: 8rem;
+  font-size: 3rem;
+  border-bottom: .2rem solid var(--orange);
+}
 
 
 header .logo {
@@ -145,16 +147,34 @@ padding: 2rem;
 }
 
 .about .row .content h3{
-    color: #666;
+    color: #fff;
     font-size: 4rem;
 }
 .about .row .content p{
-    color: #666;
+    color: #fff;
     font-size: 1.3rem;
     padding: 1rem 0;
 }
 
+/**SERVICES**/
+.services{
+  min-height: 100vh;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  
+}
 
+
+.services img{
+  height: 20%;
+    width: 20%;
+    object-fit: cover;
+
+}
+ .service-container{
+   display: flex;
+ }
 
 
 

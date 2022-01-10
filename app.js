@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-expressions */
-$(document).ready(function () {
+/*$(document).ready(function () {
   $("#menu").click(function () {
     $(this).toggleClass("fa-times");
 
@@ -18,21 +18,14 @@ $(document).ready(function () {
 
     $(".navbar").removeClass("nav-toggle");
 
-    if($(window).scrollTop > 60) {
-      $('header').addClass('header-active');
-    }else{
-      $('header').removeClass('header-active')
-    }
-    $('section').each(function(){
-      let top=$(window).scrollTop();
-      let height =$(this).height();
-      let offset=$(this).offset().top - 200;
-      let id = $(this).attr('id')
+    
 
-      if (top >= offset && top < offset + height) {
-         $('.navbar ul li a').removeClass('active');
-         $('navbar').find(`[href="#${id}"]`).addClass('active');
-      }
-    })
   });
-});
+});*/
+ 
+function myFunction() {
+  window.scrollTo(0, 1500)
+}
+var scroll = document.getElementById('link3')
+scroll.onclick=myFunction;
+
