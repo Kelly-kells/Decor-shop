@@ -23,11 +23,7 @@
   });
 });*/
 
-function myFunction() {
-  window.scrollTo(0, 1500);
-}
-var scroll = document.getElementById("link3");
-scroll.onclick = myFunction;
+;
 
 const navScroll = document.querySelectorAll("#navbar");
 navScroll.forEach((element) => {
