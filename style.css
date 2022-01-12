@@ -97,6 +97,7 @@ header #menu {
     top: 0;
     bottom: 0;
     z-index: -1;
+  
   }
   
 
@@ -114,6 +115,8 @@ header #menu {
 /**ABOUT SECTION**/
 .about{
   background-color: black;
+margin: 0;
+
 }
 
 .about .row{
@@ -122,7 +125,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-wrap: wrap;
-padding-top: 8rem;
+
 
 
 }
@@ -146,13 +149,25 @@ padding: 2rem;
     
 }
 
+.about h1{
+  text-align: center;
+  color: orange;
+  margin: 2rem 0;
+  padding: 1rem;
+  padding-top: 8rem;
+  font-size: 4rem;
+  font-family: "Alfa Slab One", cursive !important;
+
+}
+
 .about .row .content h3{
-    color: #fff;
+    color:#ff7b00 ;
     font-size: 4rem;
+    font-family: "Alfa Slab One", cursive !important;
 }
 .about .row .content p{
-    color: #fff;
-    font-size: 1.3rem;
+    color: white;
+    font-size: 1.5rem;
     padding: 1rem 0;
 }
 
