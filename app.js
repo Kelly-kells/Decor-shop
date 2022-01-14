@@ -1,33 +1,31 @@
-/* eslint-disable no-unused-expressions */
-/*$(document).ready(function () {
-  $("#menu").click(function () {
-    $(this).toggleClass("fa-times");
 
-    $(".navbar").toggleClass("nav-toggle");
-  });
 
-  $(window).on("scroll load", function () {
-    $("#menu").removeClass("fa-times");
+//const navScroll = document.querySelectorAll("#navbar");
+//navScroll.forEach((element) => {
+  //element.addEventListener("click", (e) => {
+   // window.scrollTo(0,1500)
+  //});
+//});
 
-    $(".navbar").removeClass("nav-toggle");
-  });
+const navScroll = document.querySelector('#link1');
 
-  $(window).on('scroll load', function(){
-     
-    $("#menu").removeClass("fa-times");
+function homeScroll() {
+  window.scrollTo(0,0)
+}
+navScroll.addEventListener('click', homeScroll)
 
-    $(".navbar").removeClass("nav-toggle");
 
-    
+const barScroll = document.querySelector('#link2');
 
-  });
-});*/
+function aboutScroll() {
+  window.scrollTo(0,1000)
+}
+barScroll.addEventListener('click', aboutScroll)
 
-;
 
-const navScroll = document.querySelectorAll("#navbar");
-navScroll.forEach((element) => {
-  element.addEventListener("click", (e) => {
-    window.scrollTo(0,1500)
-  });
-});
+const thirdScroll = document.querySelector('#link3');
+
+function serviceScroll() {
+  window.scrollTo(0,1500)
+}
+thirdScroll.addEventListener('click', serviceScroll)
