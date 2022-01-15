@@ -227,12 +227,54 @@ width: 100px;
 /**Showroom**/
 .showroom-container{
   display: flex;
-  margin-top: 25px;
+  margin-top: 40px;
+  
+
+
 }
 .showroom{
   background-color: #fff;
+
   
 }
+.showroom h2{
+  margin-top: 5px;
+  margin-left: 20px;
+  font-size: 2rem;
+}
+.showroom p{
+  margin-left: 30px;
+  font-size: 1.5rem;
+}
+
+.showroom img{
+  height: 80%;
+    width: 20%;
+    object-fit: cover;
+   
+}
+.product-container{
+  margin-left: 10px;
+  padding: 10px;
+  box-shadow: 10px 10px grey;
+  transform: perspective();
+ 
+ 
+}
+.show-btn{
+  width: 90px;
+  background-color:#ff7b00 ;
+  color: #fff;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: none;
+  margin-left: 20px;
+}
+
+
+
+
 
 
 
