@@ -22,9 +22,9 @@ html {
   overflow-x: hidden;
 }
 
-.btn{
+.btn {
   width: 90px;
-  background-color:#ff7b00 ;
+  background-color: #ff7b00;
   color: #fff;
   height: 30px;
   border-radius: 10px;
@@ -32,12 +32,11 @@ html {
   border: none;
   transition: width 2s;
 }
-.btn:hover{
+.btn:hover {
   background-color: #fff;
   color: #000;
   transition: all 500ms ease;
   width: 120px;
-
 }
 
 header {
@@ -52,20 +51,19 @@ header {
   padding: 2rem 3rem;
 }
 
-.heading{
+.heading {
   display: inline-block;
   color: orange;
   margin: 2rem 0;
   padding: 1rem;
   padding-top: 8rem;
   font-size: 3rem;
-  border-bottom: .2rem solid var(--orange);
+  border-bottom: 0.2rem solid var(--orange);
   width: 250px;
 }
-.heading:hover{
+.heading:hover {
   width: 350px;
 }
-
 
 header .logo {
   font-size: 2rem;
@@ -76,8 +74,6 @@ header .logo span {
   color: var(--orange);
   font-family: "Alfa Slab One", cursive !important;
 }
-
-
 
 header .navbar ul {
   list-style: none;
@@ -91,11 +87,10 @@ header .navbar li {
 header .navbar ul li a {
   color: #fff;
   font-size: 2rem;
-  
 }
-header .navbar ul li a:active{
-    color: var(--orange);
-} 
+header .navbar ul li a:active {
+  color: var(--orange);
+}
 header .navbar ul li a:hover {
   color: var(--orange);
 }
@@ -108,68 +103,57 @@ header #menu {
 
 /**HOME SECTION**/
 #myVideo {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-   
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-  
-  }
-  
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
 
-.home h1{
-    font-size: 2.5rem;
-    text-align: center;
-   margin-top: 100px;
-     text-transform: uppercase;
-     color:#4a4e69;
-     font-family: "Alfa Slab One", cursive !important;
-     
-    
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.home h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 100px;
+  text-transform: uppercase;
+  color: #4a4e69;
+  font-family: "Alfa Slab One", cursive !important;
 }
 
 /**ABOUT SECTION**/
-.about{
+.about {
   background-color: black;
-margin: 0;
-
+  margin: 0;
 }
 
-.about .row{
-min-height: 100vh;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-wrap: wrap;
-
-
-
+.about .row {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.about .row .image{
-flex: 1 1 40rem;
-padding: 2rem;
-
+.about .row .image {
+  flex: 1 1 40rem;
+  padding: 2rem;
 }
-.about .row .image img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    
+.about .row .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
-.about .row .content{
-    flex: 1 1 40rem;  
-    padding: 2rem;
-    font-size: 2rem;
-    
+.about .row .content {
+  flex: 1 1 40rem;
+  padding: 2rem;
+  font-size: 2rem;
 }
 
-.about h1{
+.about h1 {
   text-align: center;
   color: orange;
   margin: 2rem 0;
@@ -177,107 +161,110 @@ padding: 2rem;
   padding-top: 8rem;
   font-size: 4rem;
   font-family: "Alfa Slab One", cursive !important;
-
 }
 
-.about .row .content h3{
-    color:#ff7b00 ;
-    font-size: 4rem;
-    font-family: "Alfa Slab One", cursive !important;
+.about .row .content h3 {
+  color: #ff7b00;
+  font-size: 4rem;
+  font-family: "Alfa Slab One", cursive !important;
 }
-.about .row .content p{
-    color: white;
-    font-size: 1.5rem;
-    padding: 1rem 0;
+.about .row .content p {
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem 0;
 }
 
 /**SERVICES**/
-.services{
+.services {
   min-height: 100vh;
   text-align: center;
   background-color: #000;
   color: #fff;
-  
-  
 }
 
-
-.services img{
+.services img {
   height: 20%;
-    width: 20%;
-    object-fit: cover;
-
+  width: 20%;
+  object-fit: cover;
 }
- .service-container{
-   display: flex;
+.service-container {
+  display: flex;
+  flex-direction: row;
   margin-top: 30px;
- }
-.info{
+}
+.info {
   margin-top: 100px;
 }
-.info h3{
+.info h3 {
   color: orange;
   font-size: 2rem;
   transition: width 2x;
 }
-.info h3:hover{
-width: 100px;
+.info h3:hover {
+  width: 100px;
 }
 
 /**Showroom**/
-.showroom-container{
+.showroom-container {
   display: flex;
   margin-top: 40px;
-  
-
-
 }
-.showroom{
+.showroom {
   background-color: #fff;
-
-  
-}
-.showroom h2{
-  margin-top: 5px;
-  margin-left: 20px;
-  font-size: 2rem;
-}
-.showroom p{
-  margin-left: 30px;
-  font-size: 1.5rem;
 }
 
-.showroom img{
-  height: 80%;
-    width: 20%;
-    object-fit: cover;
-   
-}
-.product-container{
-  margin-left: 10px;
-  padding: 10px;
-  box-shadow: 10px 10px grey;
-  transform: perspective();
- 
- 
-}
-.show-btn{
+.show-btn {
   width: 90px;
-  background-color:#ff7b00 ;
+  background-color: #ff7b00;
   color: #fff;
   height: 30px;
   border-radius: 10px;
   margin-top: 20px;
   border: none;
-  margin-left: 20px;
+  transition: all 1Ss;
+  
+
+}
+.show-btn:hover{
+  background-color: black;
+  width: 100px;
+ 
 }
 
 
 
 
 
+.product-container {
+  margin-left: 5px;
+  
+  width: 410px;
+  height: 420px;
+}
+.product-container img:hover{
+  transform: perspective(900px) rotateY(45deg);
+}
 
+.product-container p{
+  font-size: 1.5rem;
+}
+.product-container h3{
+  font-size: 1.5rem;
+}
 
+.product-container img {
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+  margin-top: 10px;
+  
+}
+
+.product-info{
+  margin-left: 150px;
+ 
+
+}
 
 
 /**media-query**/
@@ -317,9 +304,15 @@ width: 100px;
     top: 8rem;
     opacity: 1;
   }
+  .services-container{
+justify-content: center;
+flex-direction: column;
+min-height: 100vh;
+width: 100%;
+  }
 }
-@media (max-width: 500px){
-    html{
-        font-size: 50%;
-    }
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
 }
