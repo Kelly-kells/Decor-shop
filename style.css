@@ -207,7 +207,8 @@ header #menu {
 /**Showroom**/
 .showroom-container {
   display: flex;
-  margin-top: 40px;
+  margin-top: 100px;
+margin-left: 10px;
 }
 .showroom {
   background-color: #fff;
@@ -221,7 +222,7 @@ header #menu {
   border-radius: 10px;
   margin-top: 20px;
   border: none;
-  transition: all 1ss;
+  transition: all 1s;
 }
 .show-btn:hover {
   background-color: black;
@@ -230,23 +231,32 @@ header #menu {
 
 .product-container {
   margin-left: 5px;
-  border: 2px solid #000;
+ 
   border-radius: 10px;
   width: 410px;
   height: 420px;
+  margin-left: 20px;
+}
+.product3-container{
+  margin-left: 5px;
+ 
+  border-radius: 10px;
+  width: 410px;
+  height: 420px;
+  margin-left: 20px;
 }
 .product-container img:hover {
   transform: perspective(900px) rotateY(45deg);
 }
 
-.product-container, .product2-container p {
+.product-container, .product2-container,.product3-container p {
   font-size: 1.5rem;
 }
-.product-container, .product2-container h3 {
+.product-container, .product2-container, .product3-container h3 {
   font-size: 1.5rem;
 }
 
-.product-container img {
+.product-container  img {
   height: 300px;
   width: 400px;
   object-fit: cover;
@@ -258,8 +268,8 @@ header #menu {
 }
 
 .product2-container {
-  margin-left: 5px;
-  border: 2px solid #000;
+  margin-left: 30px;
+  
   border-radius: 10px;
   width: 410px;
   height: 420px;
@@ -275,12 +285,23 @@ header #menu {
 .product2-container img:hover {
   transform: perspective(900px) rotateY(45deg);
 }
+.product3-container img {
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+ .product3-container img:hover {
+  transform: perspective(900px) rotateY(45deg);
+}
 
 /**media-query**/
 @media (max-width: 768px) {
   html {
     font-size: 55%;
   }
+  
 
   header #menu {
     display: block;
@@ -313,16 +334,26 @@ header #menu {
     top: 8rem;
     opacity: 1;
   }
-  .services {
+.services{
+  margin: 0px;
+}
+  .services img{
+    width: 100%;
+  }
+  .product-container, .product2-container{
+    margin: 0px;
+  }
+  .service-container {
     display: flex;
-    flex-wrap: wrap;
-
+    flex-direction: column;
+  margin: 0;
     width: 100%;
   }
 
-  .showroom{
+  .showroom-container{
     display: flex;
     flex-direction: column;
+    margin: 0;
   }
 }
 @media (max-width: 500px) {

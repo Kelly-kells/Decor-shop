@@ -29,3 +29,14 @@ function serviceScroll() {
   window.scrollTo(0,1500)
 }
 thirdScroll.addEventListener('click', serviceScroll)
+
+
+const lastScroll = document.querySelector('#link4');
+
+function showroomScroll() {
+  window.scrollTo(0,2000)
+}
+lastScroll.addEventListener('click', showroomScroll)
+
+
+
