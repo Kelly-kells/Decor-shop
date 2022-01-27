@@ -296,6 +296,10 @@ margin-left: 10px;
   transform: perspective(900px) rotateY(45deg);
 }
 
+.showroom-section2{
+  display: flex;
+}
+
 /**media-query**/
 @media (max-width: 768px) {
   html {
@@ -338,7 +342,7 @@ margin-left: 10px;
   margin: 0px;
 }
   .services img{
-    width: 100%;
+    width: 90%;
   }
   .product-container, .product2-container{
     margin: 0px;
@@ -354,6 +358,11 @@ margin-left: 10px;
     display: flex;
     flex-direction: column;
     margin: 0;
+    width: 100%;
+  }
+  .showroom-section2{
+    display: flex;
+    flex-direction: column;
   }
 }
 @media (max-width: 500px) {

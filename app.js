@@ -39,4 +39,8 @@ function showroomScroll() {
 lastScroll.addEventListener('click', showroomScroll)
 
 
+function menuToggle() {
+  var menu=document.getElementById('#menu')
+  menu.classList.toggle('heading #menu')
+}
 
