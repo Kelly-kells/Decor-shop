@@ -229,11 +229,11 @@ margin-left: 10px;
   width: 100px;
 }
 
-.product-container {
+.product-container, .product3-container {
   margin-left: 5px;
  
   border-radius: 10px;
-  width: 410px;
+  width: 400px;
   height: 420px;
   margin-left: 20px;
 }
@@ -241,7 +241,7 @@ margin-left: 10px;
   margin-left: 5px;
  
   border-radius: 10px;
-  width: 410px;
+  width: 400px;
   height: 420px;
   margin-left: 20px;
 }
@@ -268,7 +268,7 @@ margin-left: 10px;
 }
 
 .product2-container {
-  margin-left: 30px;
+  margin-left: 5px;
   
   border-radius: 10px;
   width: 410px;
@@ -301,10 +301,11 @@ margin-left: 10px;
 }
 
 /**media-query**/
-@media (max-width: 768px) {
+@media (max-width: 608px) {
   html {
     font-size: 55%;
   }
+  
   
 
   header #menu {
@@ -338,26 +339,39 @@ margin-left: 10px;
     top: 8rem;
     opacity: 1;
   }
+
+  .about .row{
+    width: 100%;
+    margin: 0;
+    align-items: center;
+  }
 .services{
-  margin: 0px;
+  
 }
   .services img{
-    width: 90%;
+    
+  width: 100%;
+  object-fit: cover;
+  margin-top: 10px;
+  
   }
-  .product-container, .product2-container{
-    margin: 0px;
-  }
+  
   .service-container {
     display: flex;
     flex-direction: column;
   margin: 0;
-    width: 100%;
+  align-items: center;
   }
-
+  .showroom{
+    margin: 0;
+  }
+  .showroom img{
+    width: 100%;
+    align-items: center;
+  }
   .showroom-container{
     display: flex;
     flex-direction: column;
-    margin: 0;
     width: 100%;
   }
   .showroom-section2{
