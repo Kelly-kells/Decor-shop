@@ -39,12 +39,10 @@ function showroomScroll() {
 lastScroll.addEventListener('click', showroomScroll)
 
 
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-
+// eslint-disable-next-line no-undef
+$(document).ready(function() {
+  $('#menu').click(function() {
+    $(this).toggleClass('fa-times');
+    $('.navbar').toggleClass('nav-togle');
+  })
+})
